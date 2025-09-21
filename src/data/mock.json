@@ -1,0 +1,44 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Ali Hassan",
+      "availability": {
+        "Mon": true,
+        "Tue": true,
+        "Wed": false,
+        "Thu": true,
+        "Fri": false,
+        "Sat": true,
+        "Sun": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fatima Omar",
+      "availability": {
+        "Mon": false,
+        "Tue": true,
+        "Wed": true,
+        "Thu": true,
+        "Fri": true,
+        "Sat": false,
+        "Sun": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": 101,
+      "title": "Downtown \u2192 Airport",
+      "details": "Morning shift",
+      "assignedDriverId": 1
+    },
+    {
+      "id": 102,
+      "title": "Harbor \u2192 Central",
+      "details": "Afternoon",
+      "assignedDriverId": null
+    }
+  ]
+}
